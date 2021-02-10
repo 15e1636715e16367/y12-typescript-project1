@@ -20,7 +20,7 @@ let sketch = function (p: p5) {
 
         engine = Engine.create();
         
-        boxA = Bodies.rectangle(400, 200, 80, 80);
+        boxA = Bodies.rectangle(400, 200, 80, 60);
         boxB = Bodies.rectangle(450, 50, 80, 80);
         ground = Bodies.rectangle(400, 410, 810, 60, { isStatic: true });
 
